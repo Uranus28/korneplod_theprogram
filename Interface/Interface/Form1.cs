@@ -226,8 +226,8 @@ namespace Interface
 
         private void sqrt_button_Click(object sender, EventArgs e)//вычисление корня
         {
-            //try
-            //{
+            try
+            {
                 string s = "";
             if (input_textBox.Text!="" && input_textBox.Text.IndexOf('.') == input_textBox.Text.Length - 1)
                     MessageBox.Show(texts.exception1+"1");
@@ -320,12 +320,12 @@ namespace Interface
                     }
                 }
                 output_textBox.Text = s;
-            //}
-            //catch (Exception ex)
-            //{
-            //    MessageBox.Show(ex.Message);
-            //}
         }
+            catch (Exception ex)
+            {
+                MessageBox.Show(ex.Message);
+            }
+}
 
 
         ////////методы///////////////////////////////////////////////////////////////////
