@@ -226,14 +226,14 @@ namespace Interface
 
         private void sqrt_button_Click(object sender, EventArgs e)//вычисление корня
         {
-            try
-            {
+            //try
+            //{
                 string s = "";
-                if (input_textBox.Text.IndexOf('.') == input_textBox.Text.Length - 1)
-                    MessageBox.Show(texts.exception1);
+            if (input_textBox.Text!="" && input_textBox.Text.IndexOf('.') == input_textBox.Text.Length - 1)
+                    MessageBox.Show(texts.exception1+"1");
                 else
                 {
-                    if (inputim_textBox.Text.IndexOf('.') == input_textBox.Text.Length - 1)
+                    if (inputim_textBox.Text != "" && inputim_textBox.Text.IndexOf('.') == inputim_textBox.Text.Length - 1)
                         MessageBox.Show(texts.exception1);
                     else
                     {
@@ -260,9 +260,10 @@ namespace Interface
                                 {
                                     a_s = "0";
                                 }
-                            
+                           
                             a_d = Convert.ToDouble(a_s.Replace(".",",")); //реальная
                             b_d = Convert.ToDouble(b_s.Replace(".", ",")); //мнимая
+                            //MessageBox.Show(Convert.ToString(a_d) + " " + Convert.ToString(b_d));
                             b = new Complex(a_d, b_d);
                                 is_right = true;
 
@@ -319,11 +320,11 @@ namespace Interface
                     }
                 }
                 output_textBox.Text = s;
-            }
-            catch (Exception ex)
-            {
-                MessageBox.Show(ex.Message);
-            }
+            //}
+            //catch (Exception ex)
+            //{
+            //    MessageBox.Show(ex.Message);
+            //}
         }
 
 
@@ -904,6 +905,10 @@ namespace Interface
                 }
                 else
                 {
+                    if(im.ToString("F" + accu) == "0")
+                    {
+                        res += "-";
+                    }
                     res += im.ToString("F" + accu) + "*i";
                 }
                 return res;
