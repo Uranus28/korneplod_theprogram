@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -180,10 +180,15 @@ namespace Interface
                 l = "c";
             }
         }
+        void chist()//очистка от лишних символов
         {
             for (int i = 0; i < input_textBox.Text.Length; i++)
             {
-                
+                if(i==1 && input_textBox.Text[i]=='0' && input_textBox.Text[i - 1] == '0')
+                {
+                    input_textBox.Text = input_textBox.Text.Substring(1, input_textBox.Text.Length -1);
+                    i--;
+                }
                 if ("0123456789".IndexOf(input_textBox.Text[i])==-1)
                 {
                     
@@ -276,8 +281,11 @@ namespace Interface
                             {
                                 if (is_right)
                                 {
-
                                     s = a.sqrt(Accuracy.Value).ToString();
+                                    if (input_textBox.Text == "0" || input_textBox.Text == "-0")
+                                    {
+                                        s = 0.ToString("F"+Accuracy.Value);
+                                    }
                                     if (s.IndexOf('.' )!= -1){
                                         s=s.Substring(0, s.IndexOf('.') + Accuracy.Value + 1);
                                         if (s[s.Length - 1] == '.')
