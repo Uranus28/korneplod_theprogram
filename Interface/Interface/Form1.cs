@@ -180,7 +180,6 @@ namespace Interface
                 l = "c";
             }
         }
-        void chist()//очистка от лишних символов
         {
             for (int i = 0; i < input_textBox.Text.Length; i++)
             {
@@ -190,8 +189,10 @@ namespace Interface
                     
                     if (input_textBox.Text[i] != '.')
                     {
-                        input_textBox.Text = input_textBox.Text.Replace(Convert.ToString(input_textBox.Text[i]), "");
                         //MessageBox.Show(Convert.ToString(input_textBox.Text[i]));
+                        if (input_textBox.Text[i] != '-')
+                            input_textBox.Text = input_textBox.Text.Replace(Convert.ToString(input_textBox.Text[i]), "");
+                        
                     }
                 }
             }
@@ -201,7 +202,8 @@ namespace Interface
                 {
                     if (inputim_textBox.Text[i] != '.')
                     {
-                        inputim_textBox.Text = inputim_textBox.Text.Replace(Convert.ToString(inputim_textBox.Text[i]), "");
+                        if(inputim_textBox.Text[i] != '-')
+                            inputim_textBox.Text = inputim_textBox.Text.Replace(Convert.ToString(inputim_textBox.Text[i]), "");
                     }
                 }
             }
