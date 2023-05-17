@@ -278,6 +278,10 @@ namespace Interface
                                     s = a.sqrt(Accuracy.Value).ToString();
                                     if (s.IndexOf('.' )!= -1){
                                         s=s.Substring(0, s.IndexOf('.') + Accuracy.Value + 1);
+                                        if (s[s.Length - 1] == '.')
+                                        {
+                                            s=s.Substring(0, s.Length - 1);
+                                        }
                                     }
                                     
                                 }
