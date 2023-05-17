@@ -1,0 +1,11 @@
+{
+    "LanguageToolStripMenuItem" : "Langiage",
+    "AboutToolStripMenuItem" : "About",
+    "Modes" : "Modes",
+    "arifmetical_b " : "Arifmtical",
+    "analitical_b" : "Analitical",
+    "input_textBox" : "Enter Number",
+    "output_textBox" : "Answer",
+    "sqrt_button" : "Find sqrt",
+    "Accuracy" : "Accuracy"
+}

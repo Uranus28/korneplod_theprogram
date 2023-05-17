@@ -1,0 +1,21 @@
+{
+  "LanguageToolStripMenuItem": "Язык",
+  "englishToolStripMenuItem": "Английский",
+  "russianToolStripMenuItem": "Русский",
+  "chineseToolStripMenuItem": "Китайский",
+  "enternumber": "Введите число:",
+  "answer": "Ответ:",
+  "AboutToolStripMenuItem": "О программе",
+  "modes": "Режим калькултора",
+  "arifmetical_b": "Арифметический",
+  "analitical_b": "Аналитический",
+  "sqrt_button": "Найти корень",
+  "Accuracy": "Точность",
+  "img_num": "Введите мнимое число:",
+  "cnum_r": "Комплексное число",
+  "num_r": "Число",
+  "c_modes": "Режим вывода:",
+  "exception1": "Неверное число!",
+  "exception2": "LongDouble inverse() - деление на 0!",
+  "exception3": "Не могу найти аналитическое решение"
+}

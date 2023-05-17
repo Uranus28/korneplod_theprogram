@@ -1,0 +1,21 @@
+{
+  "LanguageToolStripMenuItem": "Language",
+  "englishToolStripMenuItem": "English",
+  "russianToolStripMenuItem": "Russian",
+  "chineseToolStripMenuItem": "Chinese",
+  "enternumber": "Enter Number:",
+  "answer": "Answer:",
+  "AboutToolStripMenuItem": "About",
+  "modes": "Modes",
+  "arifmetical_b": "Arifmetical",
+  "analitical_b": "Analitical",
+  "sqrt_button": "Find sqrt",
+  "Accuracy": "Accuracy",
+  "img_num": "Enter Imaginary Number:",
+  "cnum_r": "Complex Number",
+  "num_r": "Number",
+  "c_modes": "Calc Modes:",
+  "exception1": "Incorrect Number!",
+  "exception2": "LongDouble inverse() - division by zero!",
+  "exception3": "Could not finf analitical sqrt of "
+}

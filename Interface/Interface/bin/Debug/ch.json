@@ -1,0 +1,21 @@
+{
+  "LanguageToolStripMenuItem": "语言",
+  "englishToolStripMenuItem": "英语",
+  "russianToolStripMenuItem": "俄罗斯",
+  "chineseToolStripMenuItem": "中文",
+  "enternumber": "输入一个数字:",
+  "answer": "答案",
+  "AboutToolStripMenuItem": "关于程序",
+  "modes": "输出模式",
+  "arifmetical_b": "算术",
+  "analitical_b": "分析",
+  "sqrt_button": "查找根",
+  "Accuracy": "准确性",
+  "img_num": "输入虚数:",
+  "cnum_r": "复数",
+  "num_r": "数字",
+  "c_modes": "输出模式:",
+  "exception1": "号码无效！",
+  "exception2": "LongDouble inverse() -除0！",
+  "exception3": "我找不到分析解决方案"
+}

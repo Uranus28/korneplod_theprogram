@@ -1,0 +1,17 @@
+C:\Users\yuriy\source\polina 5lab\Interface\Interface\bin\Debug\Interface.exe.config
+C:\Users\yuriy\source\polina 5lab\Interface\Interface\bin\Debug\Interface.exe
+C:\Users\yuriy\source\polina 5lab\Interface\Interface\bin\Debug\Interface.pdb
+C:\Users\yuriy\source\polina 5lab\Interface\Interface\obj\Debug\Interface.csproj.AssemblyReference.cache
+C:\Users\yuriy\source\polina 5lab\Interface\Interface\obj\Debug\Interface.csproj.SuggestedBindingRedirects.cache
+C:\Users\yuriy\source\polina 5lab\Interface\Interface\obj\Debug\Interface.Properties.Resources.resources
+C:\Users\yuriy\source\polina 5lab\Interface\Interface\obj\Debug\Interface.csproj.GenerateResource.cache
+C:\Users\yuriy\source\polina 5lab\Interface\Interface\obj\Debug\Interface.csproj.CoreCompileInputs.cache
+C:\Users\yuriy\source\polina 5lab\Interface\Interface\obj\Debug\Interface.exe
+C:\Users\yuriy\source\polina 5lab\Interface\Interface\obj\Debug\Interface.pdb
+C:\Users\yuriy\source\polina 5lab\Interface\Interface\obj\Debug\Interface.MainForm.resources
+C:\Users\yuriy\source\polina 5lab\Interface\Interface\obj\Debug\Interface.AboutBox.resources
+C:\Users\yuriy\source\polina 5lab\Interface\Interface\bin\Debug\Newtonsoft.Json.dll
+C:\Users\yuriy\source\polina 5lab\Interface\Interface\bin\Debug\Newtonsoft.Json.xml
+C:\Users\yuriy\source\polina 5lab\Interface\Interface\obj\Debug\Interface.csproj.CopyComplete
+C:\Users\yuriy\source\polina 5lab\Interface\Interface\obj\Debug\Interface.AboutBox1.resources
+C:\Users\yuriy\source\polina 5lab\Interface\Interface\obj\Debug\Interface.AboutBox2.resources

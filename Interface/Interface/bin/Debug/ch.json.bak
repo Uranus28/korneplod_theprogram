@@ -1,0 +1,13 @@
+{
+  "LanguageToolStripMenuItem": "Язык",
+  "englishToolStripMenuItem": "Английский",
+  "russianToolStripMenuItem": "Русский",
+  "enternumber": "Введите число:",
+  "answer": "Ответ:",
+  "AboutToolStripMenuItem": "О программе",
+  "modes": "Режим вывода",
+  "arifmetical_b": "Арифметический",
+  "analitical_b": "Аналитический",
+  "sqrt_button": "Найти корень",
+  "Accuracy": "Точность"
+}
